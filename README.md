@@ -1,3 +1,3 @@
 # Selenium-Crawling
 
-Node.js와 Socket.io를 이용한 채팅 구현
+Selenium을 이용해 WEB-Crawling 자동 로그인 및 테스트
