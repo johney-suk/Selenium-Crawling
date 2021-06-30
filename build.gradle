@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    // jsoup
+    implementation group: 'org.jsoup', name: 'jsoup', version: '1.13.1'
+    // selenium-java
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+    // selenium-api
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-api', version: '3.141.59'
+
+}
+
+test {
+    useJUnitPlatform()
+}
